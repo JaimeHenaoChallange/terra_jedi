@@ -58,7 +58,7 @@ Serverless Architecture: Lambda es un servicio de computación sin servidor que 
 
 Implementación:
 
-Se puede implementar una función Lambda para procesar eventos de actualización de manifiestos Jedi. Por ejemplo, cada vez que llega un nuevo manifiesto, la función Lambda puede desencadenarse para procesar la información y actualizar los registros necesarios.
+Implemente una función Lambda para procesar eventos de actualización de manifiestos Jedi. Por ejemplo, cada vez que llega un nuevo manifiesto, la función Lambda puede desencadenarse para procesar la información y actualizar los registros necesarios.
 
 **S3**
 
@@ -68,7 +68,7 @@ Almacenamiento Duradero: S3 proporciona un almacenamiento duradero y escalable. 
 
 Implementación:
 
-Se puede utilizar S3 para almacenar los manifiestos Jedi y los registros de ubicación de Jedi de manera segura. Los eventos de Lambda pueden desencadenarse cuando se carga un nuevo manifiesto en S3, activando así la actualización del registro.
+Utilice S3 para almacenar los manifiestos Jedi y los registros de ubicación de Jedi de manera segura. Los eventos de Lambda pueden desencadenarse cuando se carga un nuevo manifiesto en S3, activando así la actualización del registro.
 
 **KMS (Key Management Service)**
 
@@ -78,7 +78,7 @@ Seguridad y Encriptación: KMS se utiliza para administrar las claves de cifrado
 
 Implementación:
 
-KMS se integra con Lambda para cifrar y descifrar el ID del Jedi almacenado como secreto. Esto garantiza que el ID del Jedi esté seguro y solo sea accesible para funciones autorizadas.
+Integre KMS con Lambda para cifrar y descifrar el ID del Jedi almacenado como secreto. Esto garantiza que el ID del Jedi esté seguro y solo sea accesible para funciones autorizadas.
 
 **VPC (Virtual Private Cloud)**
 
@@ -88,17 +88,17 @@ Aislamiento y Seguridad: VPC proporciona un entorno virtual aislado en la nube. 
 
 Implementación:
 
-Lambda y otros servicios pueden ser configurados dentro de una VPC para establecer límites y proporcionar un nivel adicional de seguridad. Esto ayuda a proteger la infraestructura y la información de posibles amenazas externas.
+Implemente la lambda con una subnet privada y si es necesario asociarla a una Nat Gateway y asi establecer límites y proporcionar un nivel adicional de seguridad. Esto ayuda a proteger la infraestructura y la información de posibles amenazas externas.
 
 **Backend de Terraform en S3 y DynamoDB**
 
 Razón de Uso:
 
-Infraestructura como Código (IaC): Utilizar Terraform para definir y gestionar la infraestructura. Al almacenar el backend de Terraform en S3 y usar DynamoDB para el bloqueo de estado, se permite una gestión eficaz y segura de la infraestructura.
+Infraestructura como Código (IaC): Utilice Terraform para definir y gestionar la infraestructura. Al almacenar el backend de Terraform en S3 y usar DynamoDB para el bloqueo de estado, se permite una gestión eficaz y segura de la infraestructura.
 
 Implementación:
 
-El backend de Terraform se configura para almacenar el estado en S3, lo que facilita la colaboración y la gestión de versiones del código de infraestructura. DynamoDB se utiliza para el bloqueo de estado, evitando conflictos en las operaciones concurrentes.
+El backend de Terraform lo configure para almacenar el estado en S3, lo que facilita la colaboración y la gestión de versiones del código de infraestructura. DynamoDB lo utilice para el bloqueo de estado, evitando conflictos en las operaciones concurrentes.
 En resumen, la combinación de Lambda, S3, KMS, VPC y el backend de Terraform en S3 y DynamoDB ofrece una solución segura, eficiente y serverless para abordar los requisitos del desafío "El Consejo Jedi: Secretos de la Galaxia".
 
 **Diagrama**
@@ -106,3 +106,6 @@ En resumen, la combinación de Lambda, S3, KMS, VPC y el backend de Terraform en
 ![Solucion IaC](doc/jedi-Página-2.jpg)
 
 ```
+
+Jaime A. Henao
+Cloud Enginer.
