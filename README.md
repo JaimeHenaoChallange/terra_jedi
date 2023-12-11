@@ -69,6 +69,6 @@ El archivo `main.tf` contiene la lógica de nuestros recursos de infraestructura
 
 **Diagrama**
 
-![CI/CD Pipeline](doc/jedi-Página-2.jpg)
+![Solucion IaC](doc/jedi-Página-2.jpg)
 
 ```
