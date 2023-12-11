@@ -66,13 +66,9 @@ El archivo `main.tf` contiene la lógica de nuestros recursos de infraestructura
 - Entrega continua (CD)
 - Despliegue continuo (CD)
 
-## Flujo de trabajo y diagrama:
-
-Github Code Repo ---->  CI Pipeline ---->  Terraform ----> AWS environment
 
 **Diagrama**
+
 ![CI/CD Pipeline](doc/jedi-Página-2.jpg)
 
-*para más información, consulte las páginas siguientes:*
-*[DevSecOps](https://dev.azure.com/GrupoBancolombia/Nequi/_wiki/wikis/Nequi.wiki/27905/DevSecOps)*
 ```
