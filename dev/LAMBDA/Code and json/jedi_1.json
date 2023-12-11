@@ -1,0 +1,32 @@
+{
+    "98721": {
+        "name": "Yedi",
+        "planet": "Dagobah-1",
+        "power_level": 95
+    },
+    "54832": {
+        "name": "Obi-Wan Kenobu",
+        "planet": "Stewjon-ka",
+        "power_level": 90
+    },
+    "12345": {
+        "name": "Mace Windu ateca",
+        "planet": "Haruunda Kal",
+        "power_level": 80
+    },
+    "78965": {
+        "name": "Reyu",
+        "planet": "Jakkutu",
+        "power_level": 78
+    },
+    "63421": {
+        "name": "Qui-Gon",
+        "planet": "Coruscante",
+        "power_level": 88
+    },
+    "25689": {
+        "name": "Ahsoka Tano1",
+        "planet": "Shilin",
+        "power_level": 79
+    }
+}

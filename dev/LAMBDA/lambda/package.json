@@ -1,0 +1,9 @@
+{
+    "name": "jedi-locator",
+    "version": "1.0.0",
+    "description": "Lambda function to safeguard Jedi locations",
+    "main": "index.js",
+    "dependencies": {
+    "aws-sdk": "^2.1049.0"
+    }
+  }
