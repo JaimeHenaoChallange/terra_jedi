@@ -1,6 +1,6 @@
-# IaC Terraform
+# The Jedi Council: Secrets of the Galaxy
 
-IaC - Despliegue IaC JEDI
+Despliegue IaC JEDI
 
 Estructura:
 
